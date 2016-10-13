@@ -1,0 +1,114 @@
+input {
+	width: 584px;
+	height: 38px;
+	
+}
+
+#topnavbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.bottomnavbar {
+    position: absolute;
+    height: 60px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: #efefef;
+    padding-right: 20px;
+}
+.bottomnavbar ul li {
+    display: inline-block;  
+    list-style-type: none;
+    line-height: 50px;
+}
+.bottomnavbar ul li a {
+    color: #888;
+    font-weight: bold;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+
+li {
+	float: right;
+	padding: 2px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+#profile {
+	width: 34px;
+	border-radius: 100%;
+}
+
+#grid {
+	width: 20px;
+	border-radius: none;
+}
+
+#bell {
+	width: 45px;
+	position: relative;
+	bottom: 12px;
+}
+
+a {
+	padding: 8px;
+	text-decoration: none;
+}
+
+a: link {
+	color:gray;
+}
+
+.voicesearch {
+	width: 70px;
+	position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: 244px;
+   margin-bottom: -150px;
+}
+
+.logo {
+   position: absolute;
+   left: 40%;
+   top: 32%; 
+ }
+   
+#searchb {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+}
+
+#button1, #button2 {
+	height: 40px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#button1 {
+	position: absolute;
+	left: 25%;
+	top: 170%;
+}
+
+#button2 {
+	position: absolute;
+	left: 47%;
+	top: 170%;
+}
+
